@@ -1,0 +1,10 @@
+# Exclude build artifacts
+*.yml linguist-detectable=false
+build/* linguist-vendored
+*.svg text 
+docs/*.html linguist-vendored
+*.tsx linguist-detectable
+
+vendor/* linguist-vendored
+dist/* linguist-vendored
+*.sh text eol=lf
